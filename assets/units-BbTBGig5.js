@@ -1,0 +1,1 @@
+var e=.45359237;function t(t,n){return n===`lb`?t*e:t}function n(t,n){return n===`lb`?t/e:t}function r(e,t){return`${n(e,t).toFixed(1)} ${t===`lb`?`lbs`:`kg`}`}function i(e,t){return Math.round(t===`kj`?e*4.184:e)}function a(e){return e===`kj`?`kJ`:`kcal`}function o(e,t){return`${i(e,t).toLocaleString()} ${a(t)}`}export{n as a,r as i,i as n,t as o,o as r,a as t};

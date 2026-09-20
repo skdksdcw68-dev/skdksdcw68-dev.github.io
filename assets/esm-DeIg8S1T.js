@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/web-DArkyfYa.js","assets/dist-Df6p42cR.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper-CZgWQFsJ.js";import{r as t}from"./dist-Df6p42cR.js";var n=t(`AppLauncher`,{web:()=>e(()=>import(`./web-DArkyfYa.js`).then(e=>new e.AppLauncherWeb),__vite__mapDeps([0,1]))});export{n as AppLauncher};
